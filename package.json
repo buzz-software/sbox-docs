@@ -1,0 +1,11 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "dependencies": {
+    "gatsby": "^2.19.39",
+    "gatsby-source-filesystem": "^2.1.53",
+    "gatsby-theme-apollo-docs": "^4.0.14",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
