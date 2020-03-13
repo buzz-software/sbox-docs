@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as GraphQL} from '../../assets/saasbox-logo-round.jpg';
+import {ReactComponent as GraphQL} from '../../assets/sbox-logo.svg';
 import {graphql, useStaticQuery} from 'gatsby';
 import styled from '@emotion/styled';
 import {colors} from 'gatsby-theme-apollo-core';
@@ -29,8 +29,8 @@ export default function Logo() {
 
   return (
     <Wrapper>
-      <GraphQL width={48} height={48} fill={colors.primary} />
-      <Title style={{color: colors.secondary}}>
+      <GraphQL width={60} height={60} fill={colors.secondary} />
+      <Title style={{color: colors.primary}}>
         {data.site.siteMetadata.title}
       </Title>
     </Wrapper>
