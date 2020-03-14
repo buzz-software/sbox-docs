@@ -13,13 +13,44 @@ module.exports = {
         sidebarCategories: {
           null: [
             'index',
-            'getting-started',
             'whats-new'
           ],
-          Features: [
-            'features/mocking',
-            'features/errors',
-            'features/data-sources'
+          "Initial Setup": [
+            'setup'
+          ],
+          "Admin Dashboard": [
+            'admin-dashboard-overview'
+          ],
+          Templates: [
+            'templates/default-template',
+            'templates/supported-pages',
+            'templates/supported-tags',
+            'templates/developing-a-template',
+            'templates/sharing-using-template'
+          ],
+          "Stripe Setup": [
+            'stripe/setup'
+          ],
+          "Marketing Setup": [
+            'marketing/setup'
+          ],
+          "Analytics Setup": [
+            'analytics/google',
+            'analytics/facebook'
+          ],
+          "Website Chat Setup": [
+            'chat/facebook'
+          ],
+          "API Key Setup": [
+            'apisetup/generate-key'
+          ],
+          "User Dashboard": [
+            'userdash/customizing-your-dashboard',
+            'userdash/supported-pages',
+            'userdash/adding-forms',
+            'userdash/jquery-example',
+            'userdash/vuejs-example',
+            'userdsash/react-example'
           ]
         }
       }
