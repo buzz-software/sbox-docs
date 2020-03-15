@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as GraphQL} from '../../assets/sbox-logo.svg';
+import {ReactComponent as GraphQL} from '../../assets/sbox-squared.svg';
 import {graphql, useStaticQuery} from 'gatsby';
 import styled from '@emotion/styled';
 import {colors} from 'gatsby-theme-apollo-core';

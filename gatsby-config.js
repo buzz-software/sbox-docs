@@ -8,50 +8,60 @@ module.exports = {
         root: __dirname,
         siteName: "SaaSBox",
         title: 'SaaSBox Documentation',
-        subtitle: 'Learn how to use SaaSBox with your API',
+        subtitle: 'Learn how to build a SaaS from your API',
         description: 'SaaSBox Docs',
         sidebarCategories: {
           null: [
             'index',
             'whats-new'
           ],
-          "Initial Setup": [
-            'setup'
+          "Getting Started": [
+            'basic-setup'
           ],
           "Admin Dashboard": [
             'admin-dashboard-overview'
           ],
-          Templates: [
+          "Setting up your Domain": [
+            'domain/setup'
+          ],
+          "Customizing Content": [
+            "content/customizing-content"
+          ],
+          "Enabling Stripe Plans": [
+            'stripe/setup'
+          ],
+          "Enabling Social Login": [
+            'social/setup'
+          ],
+          "Enabling Mailchimp": [
+            'marketing/setup'
+          ],
+          "Enabling Analytics": [
+            'analytics/google',
+            'analytics/facebook'
+          ],
+          "Enabling Website Chat": [
+            'chat/facebook'
+          ],
+          "Generating your API Key": [
+            'apisetup/generate-key'
+          ],
+          "Creating User Dashboard": [
+            'userdash/customizing-your-dashboard',
+            'userdash/supported-pages',
+            'userdash/adding-forms',
+            'userdash/jquery-example',
+            'userdash/vuejs-example',
+            'userdash/react-example'
+          ],
+          "Frontend Templates": [
+            'templates/how-templates-work',
             'templates/default-template',
             'templates/supported-pages',
             'templates/supported-tags',
             'templates/developing-a-template',
             'templates/sharing-using-template'
           ],
-          "Stripe Setup": [
-            'stripe/setup'
-          ],
-          "Marketing Setup": [
-            'marketing/setup'
-          ],
-          "Analytics Setup": [
-            'analytics/google',
-            'analytics/facebook'
-          ],
-          "Website Chat Setup": [
-            'chat/facebook'
-          ],
-          "API Key Setup": [
-            'apisetup/generate-key'
-          ],
-          "User Dashboard": [
-            'userdash/customizing-your-dashboard',
-            'userdash/supported-pages',
-            'userdash/adding-forms',
-            'userdash/jquery-example',
-            'userdash/vuejs-example',
-            'userdsash/react-example'
-          ]
         }
       }
     }
