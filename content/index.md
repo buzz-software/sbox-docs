@@ -5,6 +5,8 @@ description: Overview for how you can launch your SaaS fast
  
 ## What kind of a SaaS can SaaSBox deliver, and who is it for?
 
+![How SaaSBox Works](saasbox-diagram.png)
+
 If you are building a specific API in your domain expertise and lacking a backend focused team and experience to convert it into a SaaS, SaaSBox will do that for you very quickly.
 
 For example, you have developed a machine learning API where users submit data, and want to get back processed data through a dashboard.
@@ -15,10 +17,9 @@ We have shared such a SaaS implementation example in the documentation.
 
 ## What do I gain by using SaaSBox for such a SaaS? Whatif I develop everything myself?
 
-If your SaaS is closely related to web services and you have a full stack team, you might be better off designing your own.
+If your SaaS is already for providing web related services and you have a full stack team, you might be better off designing your own.
 
-SaaSBox is especially useful for ideas where you need a team to handle the user facing software to deliver your service through a dashboard,
-and enforce subscriptions on it.
+SaaSBox is especially useful for software services that don't include a backend component for the core idea. Machine learning software services, VR related asset delivery, MR image storage software, python based testing infrastructure software are example software ideas from startups that have shown interest in SaaSBox.
 
 If you have dedicated backend and front-end engineers who can fully focus on user dashboard design, payments, marketing pages, user management, then
 you are probably better off building a fully custom design on your own.
