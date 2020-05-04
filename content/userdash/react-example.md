@@ -31,7 +31,7 @@ You may build a production react app as follows:
 npm run build
 ```
 
-Instead we will run the same command with PUBLIC_URL environment variable set to where we will drag & drop our
+Instead we will run the same command with `PUBLIC_URL` environment variable set to where we will drag & drop our
 static assets folder:
 ```PUBLIC_URL=https://d1vtdwko5kmvv8.cloudfront.net/eec277d7-53e2-4575-be66-d15fa06773cf/a7ee87c3-f36e-46dd-a596-e3354fce0b81 npm run build```
 
