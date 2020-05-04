@@ -22,6 +22,7 @@ npm start
 
 ## Find out your SaaSBox Application ID and template ID
 
+Open up the url for any one of your assets and you will the pattern: ```<cdn url>/<application uuid>/template uuid>```
 
 ## Build create-react-app with PUBLIC_URL set to your SaaSBox CDN 
 
