@@ -47,7 +47,7 @@ module.exports = {
             'apisetup/generate-key'
           ],
           "Creating User Dashboard": [
-            'userdash/customizing-the-user-dashboard',
+            'userdash/customizing-the-dashboard',
             'userdash/react-example'
             'userdash/supported-pages',
             'userdash/adding-forms',

@@ -3,9 +3,7 @@ title: Embedding your React Application as a SaaS Dashboard
 description: Steps to integrate create-react-app into SaaSBox
 ---
 
-## Integrating your standalone React Application as a SaaS dashboard
-
-We are going to cover how you can embed your standalone react application as a user
+Below we cover how you can embed your standalone react application as a user
 dashboard into SaaSBox.
 
 You may want to do this as you simply developed a useful react applicatiton that others
@@ -46,11 +44,10 @@ Drag and drop the ```static``` folder in your react app into the template drop z
 ## Convert your React application index.html into Pug template
 ![React index copy paste](/react-example/react-index-copy-paste.png)
 
-* Create new template page (or edit settings html page)
-* Copy & Paste your react application index.html
-
-* Save
-* Press convert to pug button.
+- Create new template page (or edit settings html page)
+- Copy & Paste your react application index.html
+- Save
+- Press convert to pug button.
 ![React index page convert to pug](react-example/react-index-convert-to-pug.png)
 ![React index pug](/react-example/react-index-pug.png)
 
