@@ -47,12 +47,12 @@ module.exports = {
             'apisetup/generate-key'
           ],
           "Creating User Dashboard": [
-            'userdash/customizing-your-dashboard',
+            'userdash/customizing-the-user-dashboard',
+            'userdash/react-example'
             'userdash/supported-pages',
             'userdash/adding-forms',
             'userdash/jquery-example',
-            'userdash/vuejs-example',
-            'userdash/react-example'
+            'userdash/vuejs-example'
           ],
           "Frontend Templates": [
             'templates/how-templates-work',
