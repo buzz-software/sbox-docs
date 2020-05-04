@@ -45,10 +45,10 @@ Drag and drop the ```static``` folder in your react app into the template drop z
 ## Convert your React application index.html into Pug template
 ![React index copy paste](/react-example/react-index-copy-paste.png)
 
-- Create new template page (or edit settings html page)
-- Copy & Paste your react application index.html
-- Save
-- Press convert to pug button.
+1. Create new template page (or edit settings html page)
+2. Copy & Paste your react application index.html
+3. Save
+4. Press convert to pug button.
 ![React index page convert to pug](/react-example/react-index-convert-to-pug.png)
 ![React index pug](/react-example/react-index-pug.png)
 
