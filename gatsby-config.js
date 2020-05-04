@@ -48,7 +48,7 @@ module.exports = {
           ],
           "Creating User Dashboard": [
             'userdash/customizing-the-dashboard',
-            'userdash/react-example'
+            'userdash/react-example',
             'userdash/supported-pages',
             'userdash/adding-forms',
             'userdash/jquery-example',
