@@ -49,7 +49,7 @@ Drag and drop the ```static``` folder in your react app into the template drop z
 - Copy & Paste your react application index.html
 - Save
 - Press convert to pug button.
-![React index page convert to pug](react-example/react-index-convert-to-pug.png)
+![React index page convert to pug](/react-example/react-index-convert-to-pug.png)
 ![React index pug](/react-example/react-index-pug.png)
 
 ## Copy & Paste your index page's pug template body and head into one of user dashboard pages, e.g. (service-settings page)
@@ -66,10 +66,10 @@ Drag and drop the ```static``` folder in your react app into the template drop z
 Define a script section before your react application div(id="root") tag as follows:
 ```
 script.
-	var external_data = SaaSBox;
+	var external_data = "Hello from SaaSBox!";
 	noscript You need to enable JavaScript to run this app.
 ```
-You can now refer to `extternal_data` from your reactt app using the tag `{external_data}` from anywhere!
+You can now refer to `external_data` from your reactt app using the tag `{external_data}` from anywhere!
 
 ## Embedded React Application with user data from SaaSBox
 Here is the final example you will get following all of the above steps:
