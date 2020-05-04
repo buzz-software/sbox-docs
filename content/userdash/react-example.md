@@ -55,8 +55,8 @@ Drag and drop the ```static``` folder in your react app into the template drop z
 ## Copy & Paste your index page's pug template body and head into one of user dashboard pages, e.g. (service-settings page)
 ![Edit service settings page](/react-example/edit-service-settings.png)
 
-* Copy and paste head section under head
-* Copy and paste body section (your application div(id="root") and script tags under it) under card-body tag.
+1. Copy and paste head section under head
+2. Copy and paste body section (your application div(id="root") and script tags under it) under card-body tag.
 ![React save into user settings](/react-example/react-save-into-user-settings.png)
 
 ### Your react application is now embedded inside the user dashboard under yourapp.com/user/settings
