@@ -46,25 +46,25 @@ Following the above example, the format is as follows: ```<cdn url>/<application
 Drag and drop the ```static``` folder in your react app into the template drop zone in SaaSBox.
 
 ## Convert your React application index.html into Pug template
-![React index copy paste](react-index-copy-paste.png)
+![React index copy paste](react-example/react-index-copy-paste.png)
 
 * Create new template page (or edit settings html page)
 * Copy & Paste your react application index.html
 
 * Save
 * Press convert to pug button.
-![React index page convert to pug](react-index-convert-to-pug.png)
-![React index pug](react-index-pug.png)
+![React index page convert to pug](react-example/react-index-convert-to-pug.png)
+![React index pug](react-example/react-index-pug.png)
 
 ## Copy & Paste your index page's pug template body and head into one of user dashboard pages, e.g. (service-settings page)
-![Edit service settings page](edit-service-settings.png)
+![Edit service settings page](react-example/edit-service-settings.png)
 
 * Copy and paste head section under head
 * Copy and paste body section (your application div(id="root") and script tags under it) under card-body tag.
-![React save into user settings](react-save-into-user-settings.png)
+![React save into user settings](react-example/react-save-into-user-settings.png)
 
 ### Your react application is now embedded inside the user dashboard under yourapp.com/user/settings
-![Edit service settings page](react-app-embedded-in-dashboard.png)
+![Edit service settings page](react-example/react-app-embedded-in-dashboard.png)
 
 ## Adding external data from SaaSBox
 Define a script section before your react application div(id="root") tag as follows:
@@ -77,5 +77,5 @@ You can now refer to `extternal_data` from your reactt app using the tag `{exter
 
 ## Embedded React Application with user data from SaaSBox
 Here is the final example you will get following all of the above steps:
-![React App Embedded in SaaSBox User Dashboard](app-final-with-external-value.png)
+![React App Embedded in SaaSBox User Dashboard](react-example/app-final-with-external-value.png)
 
